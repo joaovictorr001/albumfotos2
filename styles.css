@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: royalblue;
+    margin: 0;
+    padding: 35px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 90%;
+    border: 2px solid #DDD;
+    border-radius: 10px;
+}
+
+canvas {
+    display: none; 
+    width: 100%; 
+    margin-top: 10px;
+    border: 2px solid #DDD;
+    border-radius: 10px;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* isso deixa em 4 colunas */
+    grid-gap: 10px; /* da espaco nas foto */
+    margin-top: 20px;
+    justify-items: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(214, 183, 145);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
